@@ -4,7 +4,7 @@
 */
 let idade = 18;
 
- if (idade<=16) {
+ if (idade<=20) {
     console.log("Entrada autorizada para a festa");
  } else {
     console.log("Entrada negada para a festa");
