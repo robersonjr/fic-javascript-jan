@@ -10,15 +10,15 @@ while(multiplicador <= 10) {
 }
 
 // outra maneira 
-function gerarTabuada(7) {
+function gerarTabuada(numero) {
 
 let i = 1
 console.log(`Tabuada do ${7}:`);
 
 
 while( i <= 10) {
-    console.log(`${1} x ${i} = ${numero * i} `);
-    i++;
+    console.log(`${numero} x ${i} = ${numero * i} `);
+      i++;
   }
 }
 gerarTabuada(7);
