@@ -1,6 +1,10 @@
 function mostrarNome (nome) {
     document.write(nome);
 }
+// Função para criar frase
+// Mostrar frase 
+
+let frase                                               
 
 function pularLinha() {
     document.write("<br><br>");
