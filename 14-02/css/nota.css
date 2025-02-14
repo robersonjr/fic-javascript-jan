@@ -16,7 +16,7 @@ body{
     /*Borda arredondada*/
     border-radius: 5px;
     /*Centralizar minha tela*/
-    margin: 0 auto;
+    margin: 40 auto;
 }
 
 .container form {
@@ -42,4 +42,31 @@ body{
     color: #fff;
     display: block;
 
+}
+
+#verificar-nota {
+    /*Cor do fundo*/
+    background: #191970;
+    /*Borda de botão*/
+    border: 1px solid white;
+    /*cor do texto*/
+    color: #fff;
+    /*Espaçamento dentro do elemento*/
+    padding: 5px;
+    /*Espaçamento fora do elemento*/
+    margin-bottom: 10px;
+    /*Cursor mãozinha*/
+    cursor: pointer;
+    transition: all 0.9s;
+
+}
+
+#verificar-nota:hover {
+    background-color: rgb(232, 229, 229);
+    color: #191970;
+}
+
+#resultado {
+    color: #fff;
+    margin-bottom: 10px;
 }
