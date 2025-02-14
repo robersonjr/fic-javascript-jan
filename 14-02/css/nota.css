@@ -16,7 +16,7 @@ body{
     /*Borda arredondada*/
     border-radius: 5px;
     /*Centralizar minha tela*/
-    margin: 40 auto;
+    margin: 40px auto;
 }
 
 .container form {
