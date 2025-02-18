@@ -69,4 +69,14 @@ body{
 #resultado {
     color: #fff;
     margin-bottom: 10px;
+} 
+
+#message {
+    display: none;
 }
+
+#message span {
+    color: red;
+    padding-bottom: 10px;
+}
+
