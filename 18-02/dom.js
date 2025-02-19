@@ -17,9 +17,7 @@ function mudar (event) {
         return false
     }
 
-
-
-/*
+    /*
     if (nome.value === "") {
         alert("Preencha o campo nome");
         return false:
@@ -44,8 +42,19 @@ function mudar (event) {
     nome.value = "";
     cidade.value = "";
     email.value = "";
+}
+
+// Outra função
+function mudarCor(){
+   // alert("Olá")
+   //document.body.style.backgroundColor = "pink";
 
 
+   if (document.body.style.backgroundColor === "pink") {
+    document.body.style.backgroundColor = "";
+   } else {
+    document.body.style.backgroundColor = "pink"
+   }
 
 
 
