@@ -10,7 +10,7 @@ function somar(event) {
     event.preventDefault();
     
     let resultadoSoma = Number(valor1.value) + Number(valor2.value);
-    resultado.innerHTML = resultadoSoma
+    resultado.innerHTML = resultadoSoma;
 
     limparCampos()
 }
@@ -20,27 +20,27 @@ function sub (event) {
     event.preventDefault();
 
     let resultadoSub = Number(valor1.value) - Number(valor2.value);
-    resulttadoSub.innerHTML = resultadoSub
+    resultado.innerHTML = resultadoSub;
 
     limparCampos()
 }    
 
 //Função para divisão
-function div (event) {
+function divi (event) {
     event.preventDefault();
 
     let resultadoDiv = Number(valor1.value) / Number(valor2.value);
-    resulttadoDiv.innerHTML = resultadoDiv
+    resultado.innerHTML = resultadoDiv;
 
     limparCampos()   
 }
 
 //Função para multiplicação
-function multiplicação (event) {
+function multi (event) {
     event.preventDefault();
 
     let resultadoMult = Number(valor1.value) * Number(valor2.value);
-    resulttadoMult.innerHTML = resultadoMult
+    resultado.innerHTML = resultadoMult;
 
     limparCampos()
 }
