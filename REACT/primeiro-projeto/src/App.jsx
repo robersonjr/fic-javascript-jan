@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Banner from "./Components/Banner";
 import ImgCard from "./Components/ImgCard";
 import Card from "./Components/Card";
+import Count from "./Components/Count";
 import Text from "./Components/Text";
 import img1 from "./assets/img-1.jpg"
 import img2 from "./assets/img-2.jpg"
@@ -31,6 +32,7 @@ function App() {
       </div>
 
        <Card />
+       <Count />
     </div>
   </>
   )
